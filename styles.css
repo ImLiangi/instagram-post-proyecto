@@ -1,0 +1,65 @@
+body {
+    background: lightgray;
+    margin: 0;
+    padding-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    background: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.logo-footer {
+    width: 80px;
+    margin-top: 10px;
+}
+div {
+    box-sizing: border-box;
+}
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.Post {
+    background: white;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.Post img {
+    width: 100%;
+}
+
+.Post h2,
+.Post p {
+    padding: 10px;
+    margin: 0;
+}
+
+.Post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+.Post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
